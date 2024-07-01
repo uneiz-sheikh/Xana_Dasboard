@@ -30,6 +30,9 @@
 }
 .navbar_nav
 {
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
     .navbar_menu
     {
         display: flex;
@@ -45,6 +48,7 @@
 
     .nav_dropdown_list
     {
+        width: auto;
         max-height: 44px;
         height: 44px;
         position: relative;
@@ -53,13 +57,81 @@
         justify-content: center;
         align-items: center;
 
+        @media screen and (max-width: 1100px) {
+            padding: 0 0.2rem;
+        }
+
         .dropdown_container
         {
-            width: 100vw;
-            background-color: red;
-            position: absolute;
-            height: 100px;
+            width: 100dvw;
+            background-color: #fff;
+            position: fixed;
             top: 44px;
+            left: 0;
+            display: none;
+            transition: all ease-in-out 0.5s;
+        }
+        .dropdowm_row
+        {
+            width: 100%;
+            max-width: none;
+            grid-column-gap: 12px;
+            grid-row-gap: 10px;
+            background-color: rgba(245, 245, 247, 0);
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            display: flex;
+        }
+        .menu_content
+        {
+            width: 80px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            text-decoration: none;
+            grid-row-gap: 7px;
+            animation: fadeInRight 0.3s linear 0s;
+        }
+       
+        @keyframes fadeInRight
+        {
+            0%{
+                opacity:0;
+                -webkit-transform:translate3d(100%,0,0);
+                transform:translate3d(100%,0,0);
+            }
+            100%{
+                opacity:1;
+                -webkit-transform:translateZ(0);
+                transform:translateZ(0)
+            }
+        }
+        .menu_icon
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+        }
+        .menu_icon img
+        {
+            width: 100%;
+            height: 30px;
+        }
+        .menu_text
+        {
+            color: #1d1d1f;
+            text-align: center;
+            letter-spacing: -.01em;
+            margin-top: 0;
+            margin-bottom: .25rem;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            text-decoration: none !important;
         }
        
     }
@@ -67,16 +139,15 @@
     {
         display: block;
     }
+
     .nav_dropdown_items
     {
         font-size: 12px;
         font-weight: 400;
         line-height: 16px;
         color: #000;
-        padding: 0 0.5rem;
-    }
-
-    
+        padding: 0 0.6rem;
+    }    
 }
 
 .search_bar
@@ -91,7 +162,11 @@
     {
         display: flex;
         align-items: center;
-        padding: 5px 16px;        
+        padding: 5px 16px;   
+        
+        @media screen and (max-width: 992px) {
+            order: 2;
+        }
     }
     .icon_wrap
     {
@@ -114,7 +189,7 @@
    {
      padding: 0 0.5rem;
      position: relative;
-
+     margin-top: 5px;
 
      .svg-inline--fa 
      {
@@ -145,10 +220,10 @@
         justify-content: center;
 
         .user_detail
-        {           
+        {    
+            height: 24px;       
             cursor: pointer !important;
             display: flex;
-            align-items: center;
             gap: 6px;
             border-radius: 10px;
             background: #f2f2f2;
@@ -162,7 +237,7 @@
             font-size: 12px !important;
             font-style: normal;
             font-weight: 400;
-            line-height: 140%;
+            line-height: 18px;
             font-family: SF Pro Display, sans-serif;
             }
             .profile_img img 
@@ -176,7 +251,4 @@
             }
         }
    }
-
-
-
 }

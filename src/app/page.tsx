@@ -20,20 +20,148 @@ export default function Home() {
                   <div className="nav_dropdown_items">Welcome</div>
 
                   <div className="dropdown_container">
-
+                    <div className="dropdowm_row">
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/GENERAL.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">General</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/For-player.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Player</div>
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">App</div>
-                  <div className="dropdown_container">
 
-                  </div>
+                  <div className="dropdown_container">
+                    <div className="dropdowm_row">
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/logo.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">XANA</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/builder.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">XANA Builder</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/nfttt.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">NFT DUEL</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-app-logo-FF.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">XANA-CHAIN</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/marketplace.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">MarketPlaces</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/NFT-land.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Land</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/stacking.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Stacking</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/ai.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">AI</div>
+                      </a>                      
+                    </div>
+                  </div>                  
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">Summit</div>
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">$XETA</div>
+
+                  <div className="dropdown_container">
+                    <div className="dropdowm_row">
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/tokennomics.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">About $XETA</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/card.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Credit Card</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/bitget.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Bitget</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://uploads-ssl.webflow.com/65701514977b131c30ab4487/65701514977b131c30ab4539_Kucoin%20Horizental%20Colored.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Kucoin</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://uploads-ssl.webflow.com/65701514977b131c30ab4487/65701514977b131c30ab453a_Group%209043.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Bitget</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/bybit-2.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Bybit</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/stacking.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Stacking</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://uploads-ssl.webflow.com/65701514977b131c30ab4487/65701514977b131c30ab453b_htx.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">HTX</div>
+                      </a>   
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://uploads-ssl.webflow.com/65701514977b131c30ab4487/65701514977b131c30ab453c_gate.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Gate</div>
+                      </a>   
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/vesting.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Vesting</div>
+                      </a>                      
+                    </div>
+                  </div>    
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">Land</div>
