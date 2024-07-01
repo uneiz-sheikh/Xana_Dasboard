@@ -56,6 +56,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
 
         @media screen and (max-width: 1100px) {
             padding: 0 0.2rem;
@@ -164,7 +165,8 @@
         display: flex;
         align-items: center;
         padding: 5px 16px;   
-        
+        cursor: pointer;
+
         @media screen and (max-width: 992px) {
             order: 2;
         }
@@ -197,6 +199,7 @@
         width: 15.75px;
         height: 18px;
         color: rgba(0,0,0,.5);
+        cursor: pointer;
      }   
      .indicator {
         background: #fd7e14;
