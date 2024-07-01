@@ -165,18 +165,127 @@ export default function Home() {
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">Land</div>
+
+                  <div className="dropdown_container">
+                    <div className="dropdowm_row">
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/tokennomics.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">About Land</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/trade-Nft.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Land</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/NFT-land.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Land Map</div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">Game</div>
+
+                  <div className="dropdown_container">
+                    <div className="dropdowm_row">
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/nfttt.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">NFTDUEL</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/rooster-fight.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">RoosterFighter</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/breaking-down.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">BreakingDown</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/RUN-FOR-MONEY.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Run For Money</div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">NFT</div>
+
+                  <div className="dropdown_container">
+                    <div className="dropdowm_row">
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/marketplace.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Trade NFT</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/launchpad.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Launchpad</div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">XANA-CHAIN</div>
+
+                  <div className="dropdown_container">
+                    <div className="dropdowm_row">
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/tokennomics.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">About</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/EXPLORE.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Explorer</div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">DOA</div>
+
+                  <div className="dropdown_container">
+                    <div className="dropdowm_row">
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/info.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">XANADAO</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/discord.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Discord</div>
+                      </a>
+                      <a href="https://xana.net/app" className="menu_content">
+                        <div className="menu_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/xana-lp/images/hiring.svg" loading="lazy" alt="" className="image-86"/>
+                        </div>
+                        <div className="menu_text">Hirings</div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div className="nav_dropdown_list">
                   <div className="nav_dropdown_items">Download</div>
