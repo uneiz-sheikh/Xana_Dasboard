@@ -320,7 +320,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 24px 0 31px;
+        padding: 24px 0 32px;
 
         .avatar-user-name {
             font-size: 15px;
@@ -356,34 +356,83 @@
         display: flex;
         align-items: center;
         gap: 10px;
+        margin-right: 10px;
     }
     .sidebar-item .sidebar-link img
     {
         width: 20px;
         height: 20px;
-        color: #0f0f0f;
+        color: #0f0f0f;       
     }
     .sidebar-item.active .sidebar-link {       
         color: #2280e1;
         background: #f2f2f2 !important;       
+    }
+    .sidebar-item:hover .sidebar-link
+    {
+        background: #f2f2f2!important;
     }
     .sidebar-link, a.sidebar-link {
         display: block;
         padding: 12.5px 12px;
         margin-right: 0;
         margin-left: 0;
-        color: #6c757d;
         font-weight: 400;
-        background: transparent;
-        // transition: background .1s ease-in-out;
         position: relative;
         text-decoration: none;
         font-size: 14px !important;
         line-height: 16.41px !important;
         cursor: pointer;
     }
+    .slider_fixed_bottom
+    {      
+        margin-top: 40px;
+        border-top: 1.70px solid #f2f2f2;
+        background-color: #fff;
+        width: 230px;
+    }
+    .slider_fixed_bottom .settings {
+        margin-left: 12px;
+        margin-right: 13px;
+        padding-top: 22px;
+        padding-bottom: 44px;
+    }
+    .lang_btn
+    {
+        width: 100%;
+        outline: none;
+        border: none;
+        background-color: #fff;
+        border-radius: 7px;
+    }
+    .lang_btn:hover
+    {
+        background-color: #f2f2f2!important;
+    }
+    .lang_btn .lang_eng {
+        width: 100%;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+        flex: 0 1 auto;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 7px 12px;
+        display: flex;
+        cursor: pointer;
+    }
+    .lang_eng img{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .lang_eng .language-name {
+        font-size: 14px;
+        font-weight: 400;
+        color: #0f0f0f;
+    }
 }
-
+  
 .dasboard_cont
 {
     width: 100%;

@@ -420,6 +420,20 @@ export default function Home() {
                       </a>
                     </li>
                   </ul>
+
+                  <div className="slider_fixed_bottom">
+
+                    <div className="settings">
+                      <div className="setting_content">
+                        <button type="button" className="lang_btn">
+                          <div className="lang_eng">
+                            <img src="https://ik.imagekit.io/xanalia/xana/xana-en.svg" loading="lazy" alt="English" className="styles_language-icon__B_vq7" width="30" height="30"/>
+                            <span className="language-name">English</span>
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
