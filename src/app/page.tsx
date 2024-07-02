@@ -1,12 +1,19 @@
 import "./style.scss";
 
 export default function Home() {
+
   return (
     <>
       <main className="main">
+
+        {/* Header Section */}
+
         <div className="header">
           <div className="navbar">
             <div className="brand_logo">
+              <div className="menu_icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+              </div>
               <a href="https://xana.net/app">
                 <div className="logo_img">
                   <img src="https://ik.imagekit.io/xanalia/xana/xana-logo-light.svg" /> 
@@ -299,7 +306,7 @@ export default function Home() {
             <div className="search_bar">
               <div className="search_icon">
                 <div className="icon_wrap">
-                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.848 12.752L9.978 8.882C10.679 7.953 11.1 6.801 11.1 5.55C11.1 2.49 8.611 0 5.55 0C2.49 0 0 2.49 0 5.55C0 8.611 2.49 11.1 5.55 11.1C6.801 11.1 7.953 10.679 8.882 9.978L12.752 13.848C12.903 13.999 13.102 14.076 13.3 14.076C13.498 14.076 13.696 14 13.848 13.848C14.151 13.545 14.151 13.055 13.848 12.752ZM1.1 5.55C1.1 3.096 3.097 1.1 5.55 1.1C8.004 1.1 10 3.097 10 5.55C10 8.003 8.004 10 5.55 10C3.096 10 1.1 8.004 1.1 5.55Z" fill="black" fill-opacity="0.8"></path></svg>
+                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.848 12.752L9.978 8.882C10.679 7.953 11.1 6.801 11.1 5.55C11.1 2.49 8.611 0 5.55 0C2.49 0 0 2.49 0 5.55C0 8.611 2.49 11.1 5.55 11.1C6.801 11.1 7.953 10.679 8.882 9.978L12.752 13.848C12.903 13.999 13.102 14.076 13.3 14.076C13.498 14.076 13.696 14 13.848 13.848C14.151 13.545 14.151 13.055 13.848 12.752ZM1.1 5.55C1.1 3.096 3.097 1.1 5.55 1.1C8.004 1.1 10 3.097 10 5.55C10 8.003 8.004 10 5.55 10C3.096 10 1.1 8.004 1.1 5.55Z" fill="black" fillOpacity="0.8"></path></svg>
                 </div>
               </div>
 
@@ -325,6 +332,16 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Main Section */}
+
+        <section className="dasboard_sec">
+          <div className="side_bar">
+            <div className="slider">
+
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );

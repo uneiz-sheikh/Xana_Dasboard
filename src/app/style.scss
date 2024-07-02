@@ -22,6 +22,30 @@
     justify-content: space-between;
     background-color: #fff;
     padding: 0 1rem;
+
+    @media screen and (max-width: 580px) {
+        padding: 0 .50rem;
+    }
+}
+.brand_logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 10px;
+
+    @media screen and (max-width: 600px) {
+        grid-column-gap: 5px;
+    }
+}
+.menu_icon
+{
+    display: none;
+    cursor: pointer;
+
+    @media screen and (max-width: 992px) {
+        display: block;
+    }
 }
 .logo_img img
 {
@@ -148,7 +172,7 @@
         line-height: 16px;
         color: #000;
         padding: 0 0.6rem;
-        letter-spacing: -0.12px;
+        letter-spacing: -0.12px;       
     }    
 }
 
@@ -169,6 +193,9 @@
 
         @media screen and (max-width: 992px) {
             order: 2;
+        }
+        @media screen and (max-width: 600px) {
+            padding: 5px;
         }
     }
     .icon_wrap
@@ -256,3 +283,24 @@
         }
    }
 }
+
+// Dasbord Section
+
+.dasboard_sec
+{
+    width: 100%;
+    display: flex;
+}
+
+.side_bar
+{
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    overflow: auto;
+    background-color: #fff;
+    position: relative;
+    // left: -250px;
+    transition: all ease-in-out 0.5s;
+}
+
