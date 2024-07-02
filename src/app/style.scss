@@ -299,8 +299,94 @@
     height: 100vh;
     overflow: auto;
     background-color: #fff;
-    position: relative;
-    // left: -250px;
+    // margin-left: -250px;
     transition: all ease-in-out 0.5s;
+    padding-top: 44px;
+
+    @media screen and (max-width: 380px) {
+        min-width: 235px;
+    }
+
+    .slider
+    {
+        height: 100%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .slider_profile
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 0 31px;
+
+        .avatar-user-name {
+            font-size: 15px;
+            font-weight: 600;
+            color: #3e4676;
+            margin: 8px 0px 5px 0px; 
+        }
+        .user-email {
+            font-size: 12px;
+            font-weight: 400;
+            color: #3e4676;
+        }
+    }
+
+    .sidebar-nav {
+        margin-bottom: 0;
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex: 1 1;
+        background: #fff;
+        gap: 4px;
+    }
+    .sidebar-item .sidebar-link {
+        font-size: 14px !important;
+        // width: 238px;
+        height: 40px;
+        padding-left: 31px;
+        color: #0f0f0f;
+        font-weight: 400 !important;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .sidebar-item .sidebar-link img
+    {
+        width: 20px;
+        height: 20px;
+        color: #0f0f0f;
+    }
+    .sidebar-item.active .sidebar-link {       
+        color: #2280e1;
+        background: #f2f2f2 !important;       
+    }
+    .sidebar-link, a.sidebar-link {
+        display: block;
+        padding: 12.5px 12px;
+        margin-right: 0;
+        margin-left: 0;
+        color: #6c757d;
+        font-weight: 400;
+        background: transparent;
+        // transition: background .1s ease-in-out;
+        position: relative;
+        text-decoration: none;
+        font-size: 14px !important;
+        line-height: 16.41px !important;
+        cursor: pointer;
+    }
 }
 
+.dasboard_cont
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 219, 219);
+}
