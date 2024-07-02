@@ -302,6 +302,7 @@
     // margin-left: -250px;
     transition: all ease-in-out 0.5s;
     padding-top: 44px;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .05);
 
     @media screen and (max-width: 380px) {
         min-width: 235px;
@@ -350,13 +351,13 @@
         font-size: 14px !important;
         // width: 238px;
         height: 40px;
-        padding-left: 31px;
+        padding-left: 30px;
         color: #0f0f0f;
         font-weight: 400 !important;
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-right: 8px;
+        margin-right: 11px;
     }
     .sidebar-item .sidebar-link img
     {
@@ -441,5 +442,6 @@
 {
     width: 100%;
     height: 100vh;
-    background-color: rgb(255, 219, 219);
+    background-color: #fafafa;
+    padding-top: 44px;
 }
