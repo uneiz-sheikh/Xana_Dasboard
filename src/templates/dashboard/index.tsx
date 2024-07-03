@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap'
   return (
     <div className='dasboard_cont'>
       <div className="dasboard_header">
-        <h1 className='header_title'>Welcome , User!</h1>
+        <h1 className='header_title'>Welcome , Users !</h1>
         <span>Dashboard</span>
       </div>    
       <Container className='dashboard_conti'>
