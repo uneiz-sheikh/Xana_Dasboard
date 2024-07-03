@@ -12,6 +12,8 @@
 
 .dasboard_header
 {
+    margin-bottom: 48px;
+
     .header_title
     {
         font-size: 26px;
@@ -28,4 +30,44 @@
         font-size: 15px;
         line-height: 1.2;
     }
+}
+
+.dasboard_cont
+{
+    .col
+    {
+        padding: 0px;
+        background-color: #fafafa;
+        height: 416px;
+    }
+    .cont_row
+    {
+        display: flex;
+    }
+    .card_body
+    {
+        height: 100%;
+        padding: 12px 20px 20px 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0px solid rgba(0, 0, 0, .125);
+        border-radius: .2rem;
+        gap: 20px;
+    }
+    .card-title
+    {
+        color: #3e4676;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .count_sec
+    {
+        height: 184px;
+        background: #000;
+        margin: 10px;
+    }
+   
 }

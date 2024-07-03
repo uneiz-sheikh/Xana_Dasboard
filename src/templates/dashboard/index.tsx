@@ -10,13 +10,22 @@ import { Container, Row, Col } from 'react-bootstrap'
         <h1 className='header_title'>Welcome , !</h1>
         <span>Dashboard</span>
       </div>    
-      <Container>
-        <Row gap={4}>
-          <Col xxl={6} xl={7}>
-            
+      <Container className='dashboard_conti'>
+        <Row className='cont_row'>
+          <Col xxl={6} xl={7} className='col pe-3'>
+            <div className="card_body">
+              <div className="card-title">Total Visitors</div>
+            </div>
           </Col>
-          <Col xxl={6} xl={5}>
-
+          <Col xxl={6} xl={5} className='col ps-2'>
+            <div className="card_body">
+              {/* <Row className='count_row'>
+                <Col md={6} className='count_sec'></Col>
+                <Col md={6} className='count_sec'></Col>
+                <Col md={6} className='count_sec'></Col>
+                <Col md={6} className='count_sec'></Col>                
+              </Row>               */}
+            </div>
           </Col>
         </Row>
       </Container>  

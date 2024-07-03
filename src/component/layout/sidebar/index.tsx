@@ -1,12 +1,17 @@
 import React from 'react'
 
-const Sidebar = ({sidebar}:any) => {
+const Sidebar = ({sidebar,setSidebar}:any) => {
   return (
     <>
-     <div className={`side_bar ${sidebar && 'sidebar_open'} `}>
+     <div className={`side_bar ${sidebar && 'sidebar_open'} `}   onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setSidebar(false);
+              return;
+            }
+          }}>
       <div className="slider">
         <div className="slider_profile">
-          <img src="https://ik.imagekit.io/xanalia/xana/avataruser.svg" className="img-fluid rounded-circle mb-2" alt="profilePic"/>
+          <img src="https://ik.imagekit.io/xanalia/xana/avataruser.svg" className="img-fluid rounded-circle" alt="profilePic"/>
           <div className="avatar-user-name">Tool</div>
           <small className="user-email">tool@noborderz.com</small>
         </div>

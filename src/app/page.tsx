@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <>
       <Header setSidebar={setSidebar}  sidebar={sidebar}  />
-      <Sidebar sidebar={sidebar} />
+      <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
       <div className={`main ${!sidebar && 'mainContentopen'}`}>   
             <Dashboard/>            
       </div>
-   
+    
     </>
   );
 }
