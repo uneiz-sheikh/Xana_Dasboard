@@ -11,7 +11,7 @@ import { Container, Row, Col } from 'react-bootstrap'
         <span>Dashboard</span>
       </div>    
       <Container>
-        <Row>
+        <Row gap={4}>
           <Col xxl={6} xl={7}>
             
           </Col>
