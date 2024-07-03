@@ -4,14 +4,13 @@
 {
     background-color: #fafafa;
     width: calc(100% - 250px);
-    height: 100vh;
     margin-left: auto;
     padding: 44px 36px;
 
     @media screen and (max-width: 992px) {
         width: 100%;
         &.mainContentopen{
-            position: fixed;
+            width: 100%;
         } 
     }
    

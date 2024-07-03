@@ -78,7 +78,7 @@
         .ratio_1
         {
             position: absolute;
-            top: 0px;
+            top: -10px;
             left: 0px;
         }
         .ratio_O
@@ -120,9 +120,19 @@
         display: flex;
         grid-column-gap: 60px;
 
+        .gg_btn
+        {
+            display: flex;
+            align-items: center;
+        }
         input 
         {
             margin-right: 10px;
+        }
+        label
+        {
+            font-size: 14px;
+            color: #3e4676;
         }
     }
    

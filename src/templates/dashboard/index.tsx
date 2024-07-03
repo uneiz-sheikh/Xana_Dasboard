@@ -7,12 +7,12 @@ import { Container, Row, Col } from 'react-bootstrap'
   return (
     <div className='dasboard_cont'>
       <div className="dasboard_header">
-        <h1 className='header_title'>Welcome , !</h1>
+        <h1 className='header_title'>Welcome , User!</h1>
         <span>Dashboard</span>
       </div>    
       <Container className='dashboard_conti'>
         <Row className='cont_row'>
-          <Col xxl={6} xl={7} md={12} className='col pe-3'>
+          <Col xxl={6} xl={7} sm={12} className='col pe-3'>
             <div className="card_body">
               <div className="card-title">Total Visitors</div>
               <div className="card_graph">
@@ -39,16 +39,16 @@ import { Container, Row, Col } from 'react-bootstrap'
               <div className="graph_btn_sec">
                 <div className="gg_btn">
                   <input type="radio" id="Monthly" name="drone" value="Monthly" checked/>
-                  <label className="mb-0">Monthly</label>
+                  <label>Monthly</label>
                 </div>
                 <div className="gg_btn">
                   <input type="radio" id="Monthly" name="drone" value="Monthly" checked/>
-                  <label className="mb-0">Day</label>
+                  <label>Day</label>
                 </div>
               </div>
             </div>
           </Col>
-          <Col xxl={6} xl={5} md={12} className='col ps-2'>
+          <Col xxl={6} xl={5} sm={12} className='col ps-2'>
             <div className="card_body">
               {/* <Row className='count_row'>
                 <Col md={6} className='count_sec'></Col>
