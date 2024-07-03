@@ -1,5 +1,8 @@
 import React from 'react'
 import "./style_modules.scss"
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
  const Dashboard = () => {
   return (
@@ -7,7 +10,17 @@ import "./style_modules.scss"
       <div className="dasboard_header">
         <h1 className='header_title'>Welcome , !</h1>
         <span>Dashboard</span>
-      </div>      
+      </div>    
+      <Container>
+        <Row>
+          <Col xxl={6} xl={7}>
+
+          </Col>
+          <Col xxl={6} xl={5}>
+
+          </Col>
+        </Row>
+      </Container>  
     </div>
   )
 }
