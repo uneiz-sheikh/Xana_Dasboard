@@ -1,8 +1,7 @@
 import React from 'react'
-import "./style_modules.scss"
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import "./style_modules.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from 'react-bootstrap'
 
  const Dashboard = () => {
   return (
@@ -14,7 +13,7 @@ import Col from 'react-bootstrap/Col';
       <Container>
         <Row>
           <Col xxl={6} xl={7}>
-
+            
           </Col>
           <Col xxl={6} xl={5}>
 

@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+
 
 const Header = ({setSidebar,sidebar}:any) => {
+  const handleToggleSidebar = () =>{
+    setSidebar(!sidebar)
+  }
   return (
     <div className="header">
-    <div className="navbar">
+    <div className="navbar_">
       <div className="brand_logo">
-        <div className="menu_icon" onClick={() => {(sidebar) = !setSidebar}} >
+        <div className="menu_icon" onClick={() => handleToggleSidebar()} >
           <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
         </div>
         <a href="https://xana.net/app">

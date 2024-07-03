@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Header setSidebar={setSidebar}  sidebar={sidebar}  />
       <Sidebar sidebar={sidebar} />
-      <div className="main">   
+      <div className={`main ${!sidebar && 'mainContentopen'}`}>   
             <Dashboard/>            
       </div>
    

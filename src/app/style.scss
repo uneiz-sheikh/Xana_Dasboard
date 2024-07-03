@@ -7,6 +7,14 @@
     height: 100vh;
     margin-left: auto;
     padding: 44px 36px;
+
+    @media screen and (max-width: 992px) {
+        width: 100%;
+        &.mainContentopen{
+            position: fixed;
+        } 
+    }
+   
 }
 .header
 {
@@ -15,7 +23,7 @@
     top: 0px;
     z-index: 99999;
 }
-.navbar
+.navbar_
 {
     width: 100%;
     height: 44px;
@@ -221,7 +229,6 @@
    {
      padding: 0 0.5rem;
      position: relative;
-     margin-top: 5px;
 
      .svg-inline--fa 
      {
@@ -238,8 +245,8 @@
         height: 9px;
         width: 9px;
         position: absolute;
-        top: -3px;
-        right: 0px;
+        top: 0px;
+        right: 1px;
         transition: top .1s ease-out;
      } 
    }
@@ -273,7 +280,7 @@
             line-height: 18px;
             font-family: SF Pro Display, sans-serif;
             }
-            .profile_img img 
+            .profile_img
             {
             height: 17px !important;
             width: 17px !important;
@@ -281,6 +288,12 @@
             max-width: 17px;
             object-fit: cover;
             padding: unset !important;
+            display: flex;
+            }
+            .profile_img img
+            {
+                width: 100%;
+                height: 100%;
             }
         }
    }
@@ -304,7 +317,15 @@
     transition: all ease-in-out 0.5s;
     padding-top: 44px;
     box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .05);
-
+    
+    @media screen and (max-width: 992px) {
+        margin-left: -250px;   
+   
+        &.sidebar_open {
+        margin-left: 0px;
+        z-index: 1;
+    }
+    }
     @media screen and (max-width: 380px) {
         min-width: 235px;
     }
