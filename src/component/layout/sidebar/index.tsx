@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Sidebar = () => {
+const Sidebar = ({sidebar}:any) => {
   return (
     <>
-     <div className="side_bar">
+     <div className={`side_bar ${sidebar && 'sidebar_open'} `}>
       <div className="slider">
         <div className="slider_profile">
           <img src="https://ik.imagekit.io/xanalia/xana/avataruser.svg" className="img-fluid rounded-circle mb-2" alt="profilePic"/>

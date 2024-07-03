@@ -1,0 +1,29 @@
+
+.dasboard_cont
+{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    background-color: #fafafa;
+    padding-top: 48px;
+}
+
+.dasboard_header
+{
+    .header_title
+    {
+        font-size: 26px;
+        font-weight: 400;
+        color: #3e4676;
+        font-family: Noto Sans, sans-serif;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    span
+    {
+        color: #3e4676;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+}
