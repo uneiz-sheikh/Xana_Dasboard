@@ -7,6 +7,7 @@ import Table from 'react-bootstrap/Table';
 
  const Dashboard = () => {
   return (
+    <>
     <div className='dasboard_cont'>
       <Container className='dashboard_conti'>
         <div className="dasboard_header">
@@ -406,6 +407,8 @@ import Table from 'react-bootstrap/Table';
        
 
     </div>
+
+    </>
   )
 }
 export default Dashboard
