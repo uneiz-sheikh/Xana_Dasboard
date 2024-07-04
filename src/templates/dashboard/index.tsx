@@ -13,7 +13,7 @@ import { Container, Row, Col } from 'react-bootstrap'
       <Container className='dashboard_conti'>
         <Row className='cont_row'>
           <Col xxl={6} xl={7} sm={12} className='col pe-3'>
-            <div className="card_body">
+            <div className="graph_body">
               <div className="card-title">Total Visitors</div>
               <div className="card_graph">
                 <div className="ratio_1">
@@ -50,12 +50,39 @@ import { Container, Row, Col } from 'react-bootstrap'
           </Col>
           <Col xxl={6} xl={5} sm={12} className='col ps-2'>
             <div className="card_body">
-              {/* <Row className='count_row'>
-                <Col md={6} className='count_sec'></Col>
-                <Col md={6} className='count_sec'></Col>
-                <Col md={6} className='count_sec'></Col>
-                <Col md={6} className='count_sec'></Col>                
-              </Row>               */}
+              <div className="card_content">
+                <div className="card">
+                  <div className="card_title_date">
+                    <div className="title_date mb-0 mt-0">Total no. of messages</div>
+
+                    <div className="date_icon">
+                      <span>Today</span>
+                      <div className="calender_icon">
+                        <img src="https://ik.imagekit.io/xanalia/xana/calendar.svg" alt="Calendar Icon"/>
+                      </div>
+                    </div>
+                  </div>
+                  <span className="counter">0</span>
+                  
+                </div>
+                <div className="card">
+                  <div className="card_title_date">
+                      <div className="title_date mb-0 mt-0">Total no. of Visitor</div>
+
+                      <div className="date_icon">
+                        <span>Today</span>
+                        <div className="calender_icon">
+                          <img src="https://ik.imagekit.io/xanalia/xana/calendar.svg" alt="Calendar Icon"/>
+                        </div>
+                      </div>
+                    </div>
+                    <span className="counter">0</span>
+                </div>
+              </div>
+              <div className="card_content">
+                <div className="card"></div>
+                <div className="card"></div>
+              </div>
             </div>
           </Col>
         </Row>
