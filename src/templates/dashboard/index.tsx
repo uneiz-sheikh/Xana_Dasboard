@@ -13,8 +13,7 @@ import Table from 'react-bootstrap/Table';
           <h1 className='header_title'>Welcome , Users !</h1>
           <span>Dashboard</span>
         </div> 
-      </Container>
-      
+      </Container>      
 
       <Container className='dashboard_conti'>
         <Row className='cont_row'>
