@@ -5,7 +5,7 @@ const Sidebar = ({sidebar,setSidebar}:any) => {
     <>
      <div className={`side_bar ${sidebar && 'sidebar_open'} `}   onClick={(e) => {
             if (e.target === e.currentTarget) {
-              setSidebar(false);
+              setSidebar(true);
               return;
             }
           }}>

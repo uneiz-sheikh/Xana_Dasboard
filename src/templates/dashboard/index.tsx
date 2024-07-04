@@ -44,11 +44,11 @@ import Table from 'react-bootstrap/Table';
               </div>
               <div className="graph_btn_sec">
                 <div className="gg_btn">
-                  <input type="radio" id="Monthly" name="drone" value="Monthly" checked/>
+                  <input type="radio" id="Monthly" name="drone" value="Monthly" />
                   <label>Monthly</label>
                 </div>
                 <div className="gg_btn">
-                  <input type="radio" id="Monthly" name="drone" value="Monthly" checked/>
+                  <input type="radio" id="Monthly" name="drone" value="Monthly" />
                   <label>Day</label>
                 </div>
               </div>
