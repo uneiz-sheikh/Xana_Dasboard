@@ -50,6 +50,10 @@
     .cont_row
     {
         display: flex;
+
+        @media screen and (max-width: 767px) {
+            flex-direction: column!important;
+        }
     }
     .graph_body
     {
@@ -163,6 +167,11 @@
             grid-column-gap: 24px;
             grid-row-gap: 24px;
             flex-basis: 43%;
+
+            @media screen and (max-width: 540px) {
+                flex-direction: column;
+                margin-top: 24px;
+            }
         }
         .card
         {
@@ -180,6 +189,10 @@
                 margin-bottom: 0px;
                 margin-top: 24px;
             }
+            @media screen and (max-width: 540px) {
+                margin-top: 0px;
+                height: 150px;
+            }
         }
         .card_title_date
         {
@@ -191,6 +204,10 @@
                 flex-direction: column;
                 align-items: start;
                 row-gap: 10px;
+            }
+
+            @media screen and (max-width: 1200px) {
+                flex-direction: row;
             }
         }
         .title_date
@@ -285,9 +302,34 @@
         border: 0px solid rgba(0, 0, 0, .125);
         border-radius: .2rem;
         box-shadow: 0 2px 4px rgba(126, 142, 177, .12);
+
+        @media screen and (max-width: 1200px) {
+            margin-top: 24px;
+            height: 100%;
+            padding-bottom: 0px;
+            
+            .overview_img
+            {
+                width: 224px!important;
+                height: 223px!important;
+                border-width: 28px!important;
+            }
+        }
+        @media screen and (max-width: 425px) {
+            .overview_img
+            {
+                width: 180px!important;
+                height: 180px!important;
+                border-width: 20px!important;
+            }
+        }
     }
     .overv_card_body
     {
+        .card_title_date
+        {
+            flex-direction: row;
+        }
         .overview_sec
         {
             display: flex;
@@ -295,6 +337,14 @@
             justify-content: space-between;
             gap: 24px;
             padding: 30px 0px 20px 20px;
+
+            @media screen and (max-width: 1400px) {
+                align-items: center;
+            }
+            @media screen and (max-width: 1200px) {
+                flex-direction: column;
+                padding: 30px 0px 0px 0px;
+            }
         }
         .overview_img
         {
@@ -305,6 +355,17 @@
             justify-content: center;
             border-radius: 50%;
             border: 28px solid #d1d1d1;
+
+            @media screen and (max-width: 1400px) {
+                width: 180px;
+                height: 180px;
+                border: 20px solid #d1d1d1;
+            }
+            @media screen and (max-width: 1250px) {
+                width: 160px;
+                height: 160px;
+            }
+           
             
             &:hover
             {

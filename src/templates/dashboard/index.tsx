@@ -152,7 +152,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
       <Container className='dashboard_conti'>
         <Row className='cont_row'>
-          <Col lg={6} className='col pe-md-3'>
+          <Col md={6} className='col pe-md-3'>
             <div className="overv_card_body">
               <div className="card_title_date">
                 <div className="title_date mb-0 mt-0">AI Performance</div>
@@ -163,19 +163,19 @@ import Dropdown from 'react-bootstrap/Dropdown';
                     <Dropdown.Item href="#/action-1">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
-                        <label className="mb-0 text-nowrap styles_filter_text">In progress</label>
+                        <label className="mb-0 text-nowrap styles_filter_text">Today</label>
                       </div>
                     </Dropdown.Item>
                     <Dropdown.Item href="#/action-2">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
-                        <label className="mb-0 text-nowrap styles_filter_text">Comleted</label>
+                        <label className="mb-0 text-nowrap styles_filter_text">This Week</label>
                       </div>
                     </Dropdown.Item>
                     <Dropdown.Item href="#/action-3">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
-                        <label className="mb-0 text-nowrap styles_filter_text">Pending</label>
+                        <label className="mb-0 text-nowrap styles_filter_text">This Month</label>
                       </div>
                     </Dropdown.Item>
                   </Dropdown.Menu>
@@ -190,7 +190,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
                 </div>
                 
 
-                <div className="table mt-5">
+                <div className="table mt-xxl-5">
                   <table>
                     <tbody>
                       <tr>
@@ -214,7 +214,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
               </div>
             </div>
           </Col>
-          <Col lg={6} className='col ps-md-2'>
+          <Col md={6} className='col ps-md-2'>
             <div className="overv_card_body">
               <div className="card_title_date">
                 <div className="title_date mb-0 mt-0">Ticket Overview</div>
@@ -252,7 +252,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
                 </div>
                 
 
-                <div className="table mt-5">
+                <div className="table mt-xxl-5">
                   <table>
                     <tbody>
                       <tr>
@@ -287,7 +287,11 @@ import Dropdown from 'react-bootstrap/Dropdown';
         </Row>
       </Container> 
        
+      {/* Table */}
 
+      <Container className='dashboard_conti'>
+        
+      </Container>
 
     </div>
   )
