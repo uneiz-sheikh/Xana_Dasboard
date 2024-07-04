@@ -154,7 +154,7 @@
         background-color: #fafafa;
 
     }
-    .card_body
+    .card_body, .overv_card_body
     {
         .card_content
         {
@@ -244,6 +244,12 @@
             align-items: center;
             min-height: 36px;
             min-width: 115px;
+            &:hover
+            {
+                background-color: #f2f2f2!important;
+                border-color: #bdbdbd;
+                color: #000;
+            }
 
             .dropdown_menu
             {
@@ -265,5 +271,92 @@
             }
         }
        
+    }
+
+    // Overview Section
+
+    .overv_card_body
+    {
+        width: 100%;
+        height: auto;
+        padding: 12px 20px 20px 20px;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0px solid rgba(0, 0, 0, .125);
+        border-radius: .2rem;
+        box-shadow: 0 2px 4px rgba(126, 142, 177, .12);
+    }
+    .overv_card_body
+    {
+        .overview_sec
+        {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 24px;
+            padding: 30px 0px 20px 20px;
+        }
+        .overview_img
+        {
+            width: 223px;
+            height: 223px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 28px solid #d1d1d1;
+            
+            &:hover
+            {
+                border-color: #c1c1c1;
+            }
+
+            span
+            {
+                font-size: 12px;
+                font-weight: 400;
+                color: #3e4676;
+            }
+        }
+        .table{
+            width: 100%;
+        }        
+        .table
+        {
+            table
+            {
+                width: 100%;
+            }
+            tr
+            {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-top: 1px solid #dee2e6;    
+                border-bottom: none;
+                padding: 0px;
+            }
+            td
+            {
+                padding: .75rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 5px;
+            }
+            .indi_list
+            {
+                width: 14px;
+                height: 14px;
+                background-color: red;
+                border-radius: 50%;
+            }
+            .status_text
+            {
+                color: #3e4676;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
     }
 }

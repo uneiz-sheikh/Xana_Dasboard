@@ -149,6 +149,143 @@ import Dropdown from 'react-bootstrap/Dropdown';
           </Col>
         </Row>
       </Container> 
+
+      <Container className='dashboard_conti'>
+        <Row className='cont_row'>
+          <Col lg={6} className='col pe-md-3'>
+            <div className="overv_card_body">
+              <div className="card_title_date">
+                <div className="title_date mb-0 mt-0">AI Performance</div>
+                <Dropdown>
+                  <Dropdown.Toggle id="dropdown-basic" className='dropdown'>Today </Dropdown.Toggle>
+
+                  <Dropdown.Menu className='dropdown_menu'>
+                    <Dropdown.Item href="#/action-1">
+                      <div className="styles_form_checkbox">
+                        <input type="checkbox" id="inProgress"/>
+                        <label className="mb-0 text-nowrap styles_filter_text">In progress</label>
+                      </div>
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">
+                      <div className="styles_form_checkbox">
+                        <input type="checkbox" id="inProgress"/>
+                        <label className="mb-0 text-nowrap styles_filter_text">Comleted</label>
+                      </div>
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">
+                      <div className="styles_form_checkbox">
+                        <input type="checkbox" id="inProgress"/>
+                        <label className="mb-0 text-nowrap styles_filter_text">Pending</label>
+                      </div>
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </div>
+
+              <div className="overview_sec">
+                <div className="div">
+                  <div className="overview_img">
+                    <span>No Data Found</span>
+                  </div>
+                </div>
+                
+
+                <div className="table mt-5">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div className='indi_list'></div>
+                          <span className="status_text">Unanswered</span>
+                        </td>
+                        <td className="text-right status_text">0</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div className='indi_list' style={{backgroundColor: "#34ce57"}}></div>
+                          <span className="status_text">Answered</span>
+                        </td>
+                        <td className="text-right status_text">0</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                
+              </div>
+            </div>
+          </Col>
+          <Col lg={6} className='col ps-md-2'>
+            <div className="overv_card_body">
+              <div className="card_title_date">
+                <div className="title_date mb-0 mt-0">Ticket Overview</div>
+                <Dropdown>
+                  <Dropdown.Toggle id="dropdown-basic" className='dropdown'>Today </Dropdown.Toggle>
+
+                  <Dropdown.Menu className='dropdown_menu'>
+                    <Dropdown.Item href="#/action-1">
+                      <div className="styles_form_checkbox">
+                        <input type="checkbox" id="inProgress"/>
+                        <label className="mb-0 text-nowrap styles_filter_text">Today</label>
+                      </div>
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">
+                      <div className="styles_form_checkbox">
+                        <input type="checkbox" id="inProgress"/>
+                        <label className="mb-0 text-nowrap styles_filter_text">This Week</label>
+                      </div>
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">
+                      <div className="styles_form_checkbox">
+                        <input type="checkbox" id="inProgress"/>
+                        <label className="mb-0 text-nowrap styles_filter_text">This Month</label>
+                      </div>
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+              </div>
+
+              <div className="overview_sec">
+                <div className="div">
+                  <div className="overview_img">
+                    <span>No Data Found</span>
+                  </div>
+                </div>
+                
+
+                <div className="table mt-5">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div className='indi_list'></div>
+                          <span className="status_text">Pending</span>
+                        </td>
+                        <td className="text-right status_text">0</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div className='indi_list' style={{backgroundColor: "#2280e1"}}></div>
+                          <span className="status_text">In Process</span>
+                        </td>
+                        <td className="text-right status_text">0</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div className='indi_list' style={{backgroundColor: "#34ce57"}}></div>
+                          <span className="status_text">Completed</span>
+                        </td>
+                        <td className="text-right status_text">0</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                
+              </div>
+              
+            </div>
+          </Col>
+        </Row>
+      </Container> 
        
 
 
