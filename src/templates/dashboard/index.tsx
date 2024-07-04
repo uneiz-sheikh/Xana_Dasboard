@@ -3,14 +3,18 @@ import "./style_modules.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
+import Table from 'react-bootstrap/Table';
 
  const Dashboard = () => {
   return (
     <div className='dasboard_cont'>
-      <div className="dasboard_header">
-        <h1 className='header_title'>Welcome , Users !</h1>
-        <span>Dashboard</span>
-      </div> 
+      <Container className='dashboard_conti'>
+        <div className="dasboard_header">
+          <h1 className='header_title'>Welcome , Users !</h1>
+          <span>Dashboard</span>
+        </div> 
+      </Container>
+      
 
       <Container className='dashboard_conti'>
         <Row className='cont_row'>
@@ -289,9 +293,105 @@ import Dropdown from 'react-bootstrap/Dropdown';
        
       {/* Table */}
 
-      <Container className='dashboard_conti'>
-        
-      </Container>
+      
+      <div className="status_table">
+        <div className="table_head">Tickets Overview</div>
+        <div className="table_content">
+          <Table className='table_sec mb-0'>
+            <thead>
+              <tr>
+                <th>User's Name</th>
+                <th>Ticket Created Date</th>
+                <th>Ticket ID</th>
+                <th>Ticket Status</th>
+                <th>Assigned Operator</th>
+                <th>Ticket Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Visitor_1</td>
+                <td>04/07/2024</td>
+                <td>67</td>
+                <td><div className="ticket_status">Pending</div></td>
+                <td>-</td>
+                <td>
+                  <span className="styles_preview_icon">
+                    <img src="https://ik.imagekit.io/xanalia/xana/preview.svg" alt="Preview"/>
+                    Preview
+                  </span>
+                </td>
+              </tr> 
+              <tr>
+                <td>Visitor_1</td>
+                <td>04/07/2024</td>
+                <td>67</td>
+                <td><div className="ticket_status">Pending</div></td>
+                <td>-</td>
+                <td>
+                  <span className="styles_preview_icon">
+                    <img src="https://ik.imagekit.io/xanalia/xana/preview.svg" alt="Preview"/>
+                    Preview
+                  </span>
+                </td>
+              </tr>  
+              <tr>
+                <td>Visitor_1</td>
+                <td>04/07/2024</td>
+                <td>67</td>
+                <td><div className="ticket_status">Pending</div></td>
+                <td>-</td>
+                <td>
+                  <span className="styles_preview_icon">
+                    <img src="https://ik.imagekit.io/xanalia/xana/preview.svg" alt="Preview"/>
+                    Preview
+                  </span>
+                </td>
+              </tr>  
+              <tr>
+                <td>Visitor_1</td>
+                <td>04/07/2024</td>
+                <td>67</td>
+                <td><div className="ticket_status">Pending</div></td>
+                <td>-</td>
+                <td>
+                  <span className="styles_preview_icon">
+                    <img src="https://ik.imagekit.io/xanalia/xana/preview.svg" alt="Preview"/>
+                    Preview
+                  </span>
+                </td>
+              </tr>  
+              <tr>
+                <td>Visitor_1</td>
+                <td>04/07/2024</td>
+                <td>67</td>
+                <td><div className="ticket_status">Pending</div></td>
+                <td>-</td>
+                <td>
+                  <span className="styles_preview_icon">
+                    <img src="https://ik.imagekit.io/xanalia/xana/preview.svg" alt="Preview"/>
+                    Preview
+                  </span>
+                </td>
+              </tr>  
+              <tr>
+                <td>Visitor_1</td>
+                <td>04/07/2024</td>
+                <td>67</td>
+                <td><div className="ticket_status">Pending</div></td>
+                <td>-</td>
+                <td>
+                  <span className="styles_preview_icon">
+                    <img src="https://ik.imagekit.io/xanalia/xana/preview.svg" alt="Preview"/>
+                    Preview
+                  </span>
+                </td>
+              </tr>               
+            </tbody>
+          </Table>
+        </div>
+      </div>
+       
 
     </div>
   )
