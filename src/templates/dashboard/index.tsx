@@ -386,6 +386,19 @@ import Table from 'react-bootstrap/Table';
                     Preview
                   </span>
                 </td>
+              </tr>      
+              <tr>
+                <td>Visitor_1</td>
+                <td>04/07/2024</td>
+                <td>67</td>
+                <td><div className="ticket_status">Pending</div></td>
+                <td>-</td>
+                <td>
+                  <span className="styles_preview_icon">
+                    <img src="https://ik.imagekit.io/xanalia/xana/preview.svg" alt="Preview"/>
+                    Preview
+                  </span>
+                </td>
               </tr>               
             </tbody>
           </Table>
