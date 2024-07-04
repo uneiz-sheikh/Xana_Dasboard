@@ -4,10 +4,18 @@
 .dasboard_cont
 {
     width: 95%;
-    height: 100%;
+    height: auto;
     margin: auto;
     background-color: #fafafa;
     padding-top: 48px;
+
+    @media screen and (max-width: 992px) {
+        width: 100%;
+
+        .dashboard_conti.container {
+            max-width: 100% !important;
+        }
+    }
 }
 
 .dasboard_header
@@ -33,7 +41,7 @@
 }
 
 .dasboard_cont
-{
+{    
     .col
     {
         padding: 0px;
@@ -84,7 +92,7 @@
         {
             position: absolute;
             left: 0px;
-            bottom: 55px;
+            bottom: 30px;
         }
         .graph
         {
@@ -167,12 +175,23 @@
             border-radius: .2rem;
             box-shadow: 0 2px 4px rgba(126, 142, 177, .12);
             padding: 12px 20px 20px 20px;
+
+            @media screen and (max-width: 1200px) {
+                margin-bottom: 0px;
+                margin-top: 24px;
+            }
         }
         .card_title_date
         {
             display: flex;
             justify-content: space-between;
-            align-items: center;            
+            align-items: center; 
+            
+            @media screen and (max-width: 1400px){
+                flex-direction: column;
+                align-items: start;
+                row-gap: 10px;
+            }
         }
         .title_date
         {
@@ -211,6 +230,39 @@
             padding-top: 5px;
             padding-bottom: 22px;
             margin-bottom: 0;
+        }
+        .dropdown
+        {
+            background-color: #f2f2f2;
+            border-color: #bdbdbd;
+            border-radius: 4.80px;
+            color: #000;
+            font-size: 12px;
+            font-weight: 400;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 36px;
+            min-width: 115px;
+
+            .dropdown_menu
+            {
+                min-height: 36px;
+                min-width: 115px;
+            }
+        }
+        .styles_form_checkbox
+        {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+
+            .styles_filter_text
+            {
+                font-size: 12px;
+                font-weight: 400;
+                color: #000;
+            }
         }
        
     }

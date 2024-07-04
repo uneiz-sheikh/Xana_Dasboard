@@ -1,7 +1,8 @@
 import React from 'react'
 import "./style_modules.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap';
+import Dropdown from 'react-bootstrap/Dropdown';
 
  const Dashboard = () => {
   return (
@@ -9,10 +10,11 @@ import { Container, Row, Col } from 'react-bootstrap'
       <div className="dasboard_header">
         <h1 className='header_title'>Welcome , Users !</h1>
         <span>Dashboard</span>
-      </div>    
+      </div> 
+
       <Container className='dashboard_conti'>
         <Row className='cont_row'>
-          <Col xxl={6} xl={7} sm={12} className='col pe-3'>
+          <Col xxl={6} xl={7} sm={12} className='col pe-xl-3'>
             <div className="graph_body">
               <div className="card-title">Total Visitors</div>
               <div className="card_graph">
@@ -48,7 +50,7 @@ import { Container, Row, Col } from 'react-bootstrap'
               </div>
             </div>
           </Col>
-          <Col xxl={6} xl={5} sm={12} className='col ps-2'>
+          <Col xxl={6} xl={5} sm={12} className='col ps-xl-2'>
             <div className="card_body">
               <div className="card_content">
                 <div className="card">
@@ -62,7 +64,7 @@ import { Container, Row, Col } from 'react-bootstrap'
                       </div>
                     </div>
                   </div>
-                  <span className="counter">0</span>
+                  <span className="counter">7</span>
                   
                 </div>
                 <div className="card">
@@ -76,17 +78,80 @@ import { Container, Row, Col } from 'react-bootstrap'
                         </div>
                       </div>
                     </div>
-                    <span className="counter">0</span>
+                    <span className="counter">1</span>
                 </div>
               </div>
               <div className="card_content">
-                <div className="card"></div>
-                <div className="card"></div>
+                <div className="card">
+                  <div className="card_title_date">
+                    <div className="title_date mb-0 mt-0">Total no. of Tickets</div>
+
+                    <Dropdown>
+                      <Dropdown.Toggle id="dropdown-basic" className='dropdown'>Filters </Dropdown.Toggle>
+
+                      <Dropdown.Menu className='dropdown_menu'>
+                        <Dropdown.Item href="#/action-1">
+                          <div className="styles_form_checkbox">
+                            <input type="checkbox" id="inProgress"/>
+                            <label className="mb-0 text-nowrap styles_filter_text">In progress</label>
+                          </div>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">
+                          <div className="styles_form_checkbox">
+                            <input type="checkbox" id="inProgress"/>
+                            <label className="mb-0 text-nowrap styles_filter_text">Comleted</label>
+                          </div>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">
+                          <div className="styles_form_checkbox">
+                            <input type="checkbox" id="inProgress"/>
+                            <label className="mb-0 text-nowrap styles_filter_text">Pending</label>
+                          </div>
+                        </Dropdown.Item>
+                      </Dropdown.Menu>
+                    </Dropdown>
+                  </div>
+                  <span className="counter">3</span>
+                </div>
+                <div className="card">
+                 <div className="card_title_date">
+                    <div className="title_date mb-0 mt-0">Tickets Today</div>
+
+                    <Dropdown>
+                      <Dropdown.Toggle id="dropdown-basic" className='dropdown'>Filters</Dropdown.Toggle>
+
+                      <Dropdown.Menu className='dropdown_menu'>
+                        <Dropdown.Item href="#/action-1">
+                          <div className="styles_form_checkbox">
+                            <input type="checkbox" id="inProgress"/>
+                            <label className="mb-0 text-nowrap styles_filter_text">In progress</label>
+                          </div>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">
+                          <div className="styles_form_checkbox">
+                            <input type="checkbox" id="inProgress"/>
+                            <label className="mb-0 text-nowrap styles_filter_text">Comleted</label>
+                          </div>
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">
+                          <div className="styles_form_checkbox">
+                            <input type="checkbox" id="inProgress"/>
+                            <label className="mb-0 text-nowrap styles_filter_text">Pending</label>
+                          </div>
+                        </Dropdown.Item>
+                      </Dropdown.Menu>
+                    </Dropdown>
+                  </div>
+                  <span className="counter">0</span>
+                </div>
               </div>
             </div>
           </Col>
         </Row>
-      </Container>  
+      </Container> 
+       
+
+
     </div>
   )
 }
