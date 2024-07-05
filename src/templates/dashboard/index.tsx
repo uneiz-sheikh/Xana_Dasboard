@@ -201,6 +201,7 @@ import Table from "react-bootstrap/Table";
                           <span className="status_text">Unanswered</span>
                         </td>
                         <td className="text-right status_text">0</td>
+                        <td className="text-right status_text_2">3</td>
                       </tr>
                       <tr>
                         <td>
@@ -208,6 +209,7 @@ import Table from "react-bootstrap/Table";
                           <span className="status_text">Answered</span>
                         </td>
                         <td className="text-right status_text">0</td>
+                        <td className="text-right status_text_2">2</td>
                       </tr>
                     </tbody>
                   </table>
@@ -248,7 +250,7 @@ import Table from "react-bootstrap/Table";
 
               <div className="overview_sec">
                 <div className="div">
-                  <div className="overview_img">
+                  <div className="overview_img tic_over">
                     <span>No Data Found</span>
                   </div>
                 </div>
