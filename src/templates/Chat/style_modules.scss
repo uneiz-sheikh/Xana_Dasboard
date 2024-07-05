@@ -23,14 +23,18 @@
         height: 100%;
         overflow: auto;
         border-right: 1px solid #dee2e6!important;
-        padding: 10px 0px;
     }
     .search_bar
-    {
-        padding: 0px 20px;
+    { 
+        width: 378px;
+        height: auto;
+        padding: 16px 20px;
         display: flex;
         align-items: center;
-        margin-bottom: 10px;
+        background-color: #fff!important;
+        position: fixed;
+        z-index: 9999;
+        border-right: 1px solid #dee2e6!important;
 
         input 
         {
