@@ -362,8 +362,7 @@
             justify-content: center;
             border-radius: 50%;
             border: 28px solid #d1d1d1;        
-            transition: all ease-in-out 0.5s;   
-
+            transition: all ease-in-out 0.3s;   
 
             @media screen and (max-width: 1400px) {
                 width: 180px;
@@ -394,7 +393,7 @@
                 font-size: 12px;
                 font-weight: 400;
                 color: #3e4676;
-                transition: all ease-in-out 0.5s;   
+                transition: all ease-in-out 0.3s;   
             }
         }
         .tic_over:hover
