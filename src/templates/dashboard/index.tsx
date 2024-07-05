@@ -290,7 +290,6 @@ import Table from "react-bootstrap/Table";
       </Container> 
        
       {/* Table */}
-
       
       <div className="status_table">
         <div className="table_head">Tickets Overview</div>
@@ -401,8 +400,7 @@ import Table from "react-bootstrap/Table";
             </tbody>
           </Table>
         </div>
-      </div>
-       
+      </div>       
 
     </div>
   )
