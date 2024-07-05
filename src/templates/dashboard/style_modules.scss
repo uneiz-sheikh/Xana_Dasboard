@@ -2,45 +2,6 @@
 
 
 .dasboard_cont
-{
-    width: 95%;
-    height: auto;
-    margin: auto;
-    background-color: #fafafa;
-    padding-top: 48px;
-
-    @media screen and (max-width: 992px) {
-        width: 100%;
-
-        .dashboard_conti.container {
-            max-width: 100% !important;
-        }
-    }
-}
-
-.dasboard_header
-{
-    margin-bottom: 48px;
-
-    .header_title
-    {
-        font-size: 26px;
-        font-weight: 400;
-        color: #3e4676;
-        font-family: Noto Sans, sans-serif;
-        line-height: 1.2;
-        margin-bottom: 8px;
-    }
-    span
-    {
-        color: #3e4676;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 1.2;
-    }
-}
-
-.dasboard_cont
 {    
     .col
     {

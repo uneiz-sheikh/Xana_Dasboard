@@ -1,2 +1,127 @@
 @import "../../app/utilities.scss";
 
+.user_chat_sec
+{
+    width: 100%;
+    height: calc(100vh - 250px);
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, .125);
+    border-radius: .2rem;
+    box-shadow: 0 2px 4px rgba(126, 142, 177, .12);
+}
+
+.user_chat_sec
+{
+    .user_sec
+    {
+        max-width: 378px;
+        min-width: 378px;
+        width: 378px;
+        height: 100%;
+        overflow: auto;
+        border-right: 1px solid #dee2e6!important;
+        padding: 10px 0px;
+    }
+    .search_bar
+    {
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        input 
+        {
+            border: 1px solid #bdbdbd;
+            font-size: 15px;
+            line-height: 17.58px;
+            font-weight: 400;
+            border-radius: 3.2px;
+            color: #606060;
+            margin: 0px;
+        }
+    }
+    .user_detail_sec
+    {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 20px;
+        transition: all 0.3s;
+
+        &:hover
+        {
+            background-color: #e7e7e7;
+
+            .time_tag
+            {
+                display: none;
+            }
+            .time_tag2
+            {
+                display: block;
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+        .time_tag,.time_tag2
+        {
+            color: #777e90;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            transition: all 0.3s;
+        }
+        .time_tag2
+        {
+            display: none;
+        }
+        .user_detail
+        {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            .user_img
+            {
+                .user_profile_icon
+                {
+                    width: 40px;
+                }
+            }
+            .user_name 
+            {
+                span
+                {               
+                    color: #0f0f0f;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+                .u_c_d
+                {
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+
+                    span
+                    {
+                        color: #777e90;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                    .indi_list
+                    {
+                        width: 12px;
+                        height: 12px;
+                        background-color: rgb(253, 84, 84);
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

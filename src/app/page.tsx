@@ -3,6 +3,7 @@
 import "./style.scss";
 import Header from "@/component/layout/header";
 import Sidebar from "@/component/layout/sidebar";
+import Chat from "@/templates/Chat";
 import Dashboard from "@/templates/dashboard";
 import { useState } from "react";
 
@@ -14,7 +15,8 @@ export default function Home() {
       <Header setSidebar={setSidebar}  sidebar={sidebar}  />
       <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
       <div className={`main ${!sidebar && 'mainContentopen'}`}>   
-            <Dashboard/>            
+            {/* <Dashboard/>             */}
+            <Chat/>
       </div>
     
     </>
