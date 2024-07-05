@@ -92,19 +92,19 @@ import Table from "react-bootstrap/Table";
                       <Dropdown.Toggle id="dropdown-basic" className="dropdown">Filters </Dropdown.Toggle>
 
                       <Dropdown.Menu className="dropdown_menu">
-                        <Dropdown.Item href="#/action-1">
+                        <Dropdown.Item href="#/action-1" className="drop_items">
                           <div className="styles_form_checkbox">
                             <input type="checkbox" id="inProgress"/>
                             <label className="mb-0 text-nowrap styles_filter_text">In progress</label>
                           </div>
                         </Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
+                        <Dropdown.Item href="#/action-2" className="drop_items">
                           <div className="styles_form_checkbox">
                             <input type="checkbox" id="inProgress"/>
                             <label className="mb-0 text-nowrap styles_filter_text">Comleted</label>
                           </div>
                         </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
+                        <Dropdown.Item href="#/action-3" className="drop_items">
                           <div className="styles_form_checkbox">
                             <input type="checkbox" id="inProgress"/>
                             <label className="mb-0 text-nowrap styles_filter_text">Pending</label>
@@ -123,19 +123,19 @@ import Table from "react-bootstrap/Table";
                       <Dropdown.Toggle id="dropdown-basic" className="dropdown">Filters</Dropdown.Toggle>
 
                       <Dropdown.Menu className="dropdown_menu">
-                        <Dropdown.Item href="#/action-1">
+                        <Dropdown.Item href="#/action-1" className="drop_items">
                           <div className="styles_form_checkbox">
                             <input type="checkbox" id="inProgress"/>
                             <label className="mb-0 text-nowrap styles_filter_text">In progress</label>
                           </div>
                         </Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">
+                        <Dropdown.Item href="#/action-2" className="drop_items">
                           <div className="styles_form_checkbox">
                             <input type="checkbox" id="inProgress"/>
                             <label className="mb-0 text-nowrap styles_filter_text">Comleted</label>
                           </div>
                         </Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">
+                        <Dropdown.Item href="#/action-3" className="drop_items">
                           <div className="styles_form_checkbox">
                             <input type="checkbox" id="inProgress"/>
                             <label className="mb-0 text-nowrap styles_filter_text">Pending</label>
@@ -162,19 +162,19 @@ import Table from "react-bootstrap/Table";
                   <Dropdown.Toggle id="dropdown-basic" className="dropdown">Today </Dropdown.Toggle>
 
                   <Dropdown.Menu className="dropdown_menu">
-                    <Dropdown.Item href="#/action-1">
+                    <Dropdown.Item href="#/action-1" className="drop_items">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
                         <label className="mb-0 text-nowrap styles_filter_text">Today</label>
                       </div>
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">
+                    <Dropdown.Item href="#/action-2" className="drop_items">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
                         <label className="mb-0 text-nowrap styles_filter_text">This Week</label>
                       </div>
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">
+                    <Dropdown.Item href="#/action-3" className="drop_items">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
                         <label className="mb-0 text-nowrap styles_filter_text">This Month</label>
@@ -224,19 +224,19 @@ import Table from "react-bootstrap/Table";
                   <Dropdown.Toggle id="dropdown-basic" className="dropdown">Today </Dropdown.Toggle>
 
                   <Dropdown.Menu className="dropdown_menu">
-                    <Dropdown.Item href="#/action-1">
+                    <Dropdown.Item href="#/action-1" className="drop_items">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
                         <label className="mb-0 text-nowrap styles_filter_text">Today</label>
                       </div>
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">
+                    <Dropdown.Item href="#/action-2" className="drop_items">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
                         <label className="mb-0 text-nowrap styles_filter_text">This Week</label>
                       </div>
                     </Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">
+                    <Dropdown.Item href="#/action-3" className="drop_items">
                       <div className="styles_form_checkbox">
                         <input type="checkbox" id="inProgress"/>
                         <label className="mb-0 text-nowrap styles_filter_text">This Month</label>
