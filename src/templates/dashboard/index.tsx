@@ -8,13 +8,12 @@ import Table from "react-bootstrap/Table";
  const Dashboard = () => {
   return (
     <div className="dasboard_cont">
-      <Container className="dashboard_conti">
-        <div className="dasboard_header">
-          <h1 className="header_title">Welcome , Users !</h1>
-          <span>Dashboard</span>
-        </div> 
-      </Container>      
-
+      
+      <div className="dasboard_header">
+        <h1 className="header_title">Welcome , Users !</h1>
+        <span>Dashboard</span>
+      </div> 
+     
       <Container className="dashboard_conti">
         <Row className="cont_row">
           <Col xxl={6} xl={7} sm={12} className="col pe-xl-3">
