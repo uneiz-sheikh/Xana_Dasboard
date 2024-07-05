@@ -389,12 +389,12 @@
                     transform: rotate(-45deg);
                 }
             }
-
             span
             {
                 font-size: 12px;
                 font-weight: 400;
                 color: #3e4676;
+                transition: all ease-in-out 0.5s;   
             }
         }
         .tic_over:hover
