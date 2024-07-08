@@ -19,13 +19,13 @@ const Sidebar = ({sidebar,setSidebar}:any) => {
         <div className="side_scroller">
           <div className="side_con">
             <ul className="sidebar-nav">
-              <li className="sidebar-item active">
+              <li className="sidebar-item ">
                 <a href="#" className="sidebar-link">
                   <img src="https://ik.imagekit.io/xanalia/xana/bluedashboard-icon.svg"/>
                   Dashboard
                 </a>
               </li>
-              <li className="sidebar-item">
+              <li className="sidebar-item active">
                 <a href="#" className="sidebar-link">
                   <img src="https://ik.imagekit.io/xanalia/xana/chat.svg"/>
                   Chat

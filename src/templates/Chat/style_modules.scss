@@ -34,7 +34,7 @@
     { 
         width: 378px;
         height: auto;
-        padding: 16px 20px;
+        padding: 17px 20px;
         display: flex;
         align-items: center;
         background-color: #fff!important;
@@ -186,6 +186,9 @@
         {
             border-bottom: 1px solid #dee2e6;
             padding: 12px 24px;
+            @media screen and (max-width: 1249px) {
+                padding: 12px 15px;
+            }
             &:hover
             {
                 background-color: #fff;
@@ -291,10 +294,7 @@
             }
             @media screen and (max-width: 1100px) {
                 right: 142px;
-            }
-            @media screen and (max-width: 992px) {
-                right: 150px;
-            }
+            }           
         }
         .emoji_btn img ,.add_btn img
         {
