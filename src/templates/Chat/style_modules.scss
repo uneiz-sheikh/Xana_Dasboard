@@ -33,7 +33,7 @@
         align-items: center;
         background-color: #fff!important;
         position: fixed;
-        z-index: 9999;
+        z-index: 999;
         border-right: 1px solid #dee2e6!important;
 
         input 
@@ -55,6 +55,7 @@
         align-items: center;
         padding: 12px 20px;
         transition: all 0.3s;
+        cursor: pointer;
 
         &:hover
         {
@@ -67,8 +68,8 @@
             .time_tag2
             {
                 display: block;
-                font-size: 28px;
-                font-weight: 600;
+                font-size: 18px;
+                font-weight: 800;
             }
         }
         .time_tag,.time_tag2
@@ -78,6 +79,7 @@
             font-style: normal;
             font-weight: 400;
             transition: all 0.3s;
+            cursor: pointer;
         }
         .time_tag2
         {
@@ -127,5 +129,108 @@
                 }
             }
         }
+    }
+
+    .chat_area
+    {
+        width: 100%;
+        position: relative;
+    }
+    .chat_area
+    {
+        .user_detail_sec
+        {
+            border-bottom: 1px solid #dee2e6;
+            padding: 12px 24px;
+            &:hover
+            {
+                background-color: #fff;
+            }
+        }
+        .styles_filter_text
+        {
+            font-size: 12px;
+            font-weight: 400;
+            color: #3e4676;
+        }
+
+        .text_area_sec
+        {
+            width: 100%;
+            background-color: #f2f2f2;
+            padding: 12px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            gap: 12px;
+        }
+        .ticket_btn
+        {
+            text-decoration: none;
+            border: 1px solid #2280e1;
+            color: #2280e1;
+            background-color: transparent;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 600;
+            font-family: Noto Sans, sans-serif;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            transition: all ease-in-out 0.3s;
+            .img2
+            {
+                display: none;
+            }
+
+            &:hover
+            {
+                color: #fff;
+                background-color: #2280e1;
+                .img1
+                {
+                    display: none;
+                }
+                .img2
+                {
+                    display: block;
+                }
+            }
+        }
+        .text_field
+        {
+            height: 40px;
+            resize: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            overflow: auto hidden;
+            width: 500px;
+            position: relative;
+
+            &:hover
+            {
+                border: none;
+            }
+        }
+        .send_icon
+        {
+            position: absolute;
+            left: auto;
+            right: 160px;
+            cursor: pointer;
+        }
+        .emoji_btn img ,.add_btn img
+        {
+            width: 46px;
+            height: 46px;
+            cursor: pointer;
+        }
+    
     }
 }
