@@ -15,7 +15,7 @@ export default function Home() {
       <Header setSidebar={setSidebar}  sidebar={sidebar}  />
       <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
       <div className={`main ${!sidebar && 'mainContentopen'}`}>   
-            {/* <Dashboard/>             */}
+            {/* <Dashboard/>   */}
             <Chat/>
       </div>
     

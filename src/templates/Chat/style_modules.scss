@@ -23,6 +23,12 @@
         height: 100%;
         overflow: auto;
         border-right: 1px solid #dee2e6!important;
+
+        @media screen and (max-width: 1249px) {
+            max-width: 300px;
+            min-width: 300px;
+            width: 300px;
+        }
     }
     .search_bar
     { 
@@ -35,6 +41,9 @@
         position: fixed;
         z-index: 999;
         border-right: 1px solid #dee2e6!important;
+        @media screen and (max-width: 1249px) {
+            width: 300px;
+        }
 
         input 
         {
@@ -46,6 +55,10 @@
             color: #606060;
             margin: 0px;
         }
+    }
+    .m-top-64
+    {
+        margin-top: 64px!important;
     }
     .user_detail_sec
     {
@@ -135,6 +148,37 @@
     {
         width: 100%;
         position: relative;
+        display: none;
+    }
+    .show_chat
+    {
+        display: block!important;
+    }
+    
+    .hide_data
+    {
+        display: none!important;
+    }
+    .chat_data
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .header-title
+        {
+            font-size: 28px;
+            color: #3e4676;
+            font-weight: 500;
+        }
+        .header-subtitle
+        {
+            font-size: 15px;
+            font-weight: 400;
+            color: #0f0f0f;
+            margin-bottom: 50px;
+        }
     }
     .chat_area
     {
@@ -147,6 +191,7 @@
                 background-color: #fff;
             }
         }
+      
         .styles_filter_text
         {
             font-size: 12px;
@@ -158,29 +203,41 @@
         {
             width: 100%;
             background-color: #f2f2f2;
-            padding: 12px 0px;
+            padding: 12px 24px;
             display: flex;
             justify-content: center;
             align-items: center;
             position: absolute;
             bottom: 0;
             gap: 12px;
+
+            @media screen and (max-width: 1249px) {
+              padding: 12px 15px;
+            }
         }
         .ticket_btn
         {
             text-decoration: none;
             border: 1px solid #2280e1;
-            color: #2280e1;
             background-color: transparent;
-            border-radius: 30px;
-            font-size: 13px;
-            font-weight: 600;
-            font-family: Noto Sans, sans-serif;
+            border-radius: 30px;            
             height: 40px;
             display: flex;
             align-items: center;
             padding: 15px;
             transition: all ease-in-out 0.3s;
+            span 
+            {
+                color: #2280e1;
+                font-size: 13px;
+                font-weight: 600;
+                font-family: Noto Sans, sans-serif;
+                text-wrap: nowrap;
+                
+                @media screen and (max-width: 1100px) {
+                    display: none;
+                }
+            }
             .img2
             {
                 display: none;
@@ -188,7 +245,11 @@
 
             &:hover
             {
-                color: #fff;
+                span 
+                {
+                    color: #fff;
+                }
+              
                 background-color: #2280e1;
                 .img1
                 {
@@ -224,6 +285,16 @@
             left: auto;
             right: 160px;
             cursor: pointer;
+
+            @media screen and (max-width: 1500px) {
+                right: 150px;
+            }
+            @media screen and (max-width: 1100px) {
+                right: 142px;
+            }
+            @media screen and (max-width: 992px) {
+                right: 150px;
+            }
         }
         .emoji_btn img ,.add_btn img
         {
