@@ -214,8 +214,10 @@ const Chat = () => {
                       <div className="user_name">
                         <span>Visitor_1</span>
                         <div className="u_c_d">                      
-                          <input type="checkbox" id="inProgress"/>
-                          <label className="mb-0 text-nowrap styles_filter_text">Smart Reply</label>                                    
+                          <label className="label_container">Smart Reply
+                            <input type="checkbox"/>
+                            <span className="checkmark"></span>
+                          </label>                              
                         </div>
                       </div>
                     </div>                
